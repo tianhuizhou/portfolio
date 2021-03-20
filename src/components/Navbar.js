@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import {Button} from './Button';
 import './Navbar.css';
+import { Icon } from "semantic-ui-react";
 function Navbar(){
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);

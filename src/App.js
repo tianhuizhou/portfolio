@@ -5,7 +5,7 @@ import './App.css';
 import Home from './components/pages/Home';
 import Services from "./components/pages/Services";
 import Products from "./components/pages/Products"
-import Cards from "./components/Cards"
+import Footer from "./components/Footer"
 function App() {
   return (
     <>
@@ -17,6 +17,7 @@ function App() {
             <Route path={'/products'} component={Products} />
 
         </Switch>
+        <Footer />
     </Router>
     </>
   );
