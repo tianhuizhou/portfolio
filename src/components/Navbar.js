@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import {Button} from './Button';
 import './Navbar.css';
-import { Icon } from "semantic-ui-react";
+import { Dropdown } from "semantic-ui-react";
 function Navbar(){
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
@@ -42,11 +42,21 @@ function Navbar(){
                                 About
                             </Link>
                         </li>
-                        <li className={'nav-item'}>
-                            <Link to='/services' className={'nav-links'} onClick={closeMobileMenu}>
-                                Services
-                            </Link>
-                        </li>
+                        {/*<li className={'nav-item'}>*/}
+                        {/*    <Link to='/services' className={'nav-links'} onClick={closeMobileMenu}>*/}
+                        {/*        Services*/}
+                        {/*    </Link>*/}
+                        {/*</li>*/}
+
+                            <Dropdown className={'nav-item'} text={'Test'}>
+                                <Dropdown.Menu>
+                                    <Dropdown.Item>s1</Dropdown.Item>
+                                    <Dropdown.Item>s1</Dropdown.Item>
+                                    <Dropdown.Item>s1</Dropdown.Item>
+                                </Dropdown.Menu>
+                            </Dropdown>
+
+
                         <li className={'nav-item'}>
                             <Link to='/projects' className={'nav-links-mobile'} onClick={closeMobileMenu}>
                                 Sign Up

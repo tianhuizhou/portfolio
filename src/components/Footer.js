@@ -7,33 +7,33 @@ function Footer() {
             <div className={'footer_links-wrapper'}>
                 <div className={'footer_links-items'}>
                     <h2>About us</h2>
-                    <a href="#">balabala</a>
-                    <a href="#">balabala</a>
-                    <a href="#">balabala</a>
-                    <a href="#">balabala</a>
+                    <a href="/">balabala</a>
+                    <a href="/">balabala</a>
+                    <a href="/">balabala</a>
+                    <a href="/">balabala</a>
                 </div>
                 <div className={'footer_links-items'}>
                     <h2>About us</h2>
-                    <a href="#">balabala</a>
-                    <a href="#">balabala</a>
-                    <a href="#">balabala</a>
-                    <a href="#">balabala</a>
+                    <a href="/">balabala</a>
+                    <a href="/">balabala</a>
+                    <a href="/">balabala</a>
+                    <a href="/">balabala</a>
                 </div>
             </div>
                 <div className={'footer_links-wrapper'}>
                     <div className={'footer_links-items'}>
                         <h2>About us</h2>
-                        <a href="#">balabala</a>
-                        <a href="#">balabala</a>
-                        <a href="#">balabala</a>
-                        <a href="#">balabala</a>
+                        <a href="/">balabala</a>
+                        <a href="/">balabala</a>
+                        <a href="/">balabala</a>
+                        <a href="/">balabala</a>
                     </div>
                     <div className={'footer_links-items'}>
                         <h2>About us</h2>
-                        <a href="#">balabala</a>
-                        <a href="#">balabala</a>
-                        <a href="#">balabala</a>
-                        <a href="#">balabala</a>
+                        <a href="/">balabala</a>
+                        <a href="/">balabala</a>
+                        <a href="/">balabala</a>
+                        <a href="/">balabala</a>
                     </div>
                 </div>
         </div>
