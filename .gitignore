@@ -1,0 +1,3 @@
+.DS_*
+*.logs
+/node_modules
